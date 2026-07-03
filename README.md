@@ -32,7 +32,6 @@ Entstanden ist SipSync im Modul *Interaktive Systeme* im Sommersemester 2026 an 
 
 Die Grundidee: Ein Ultraschallsensor erkennt, ob ein Getränk auf dem Untersetzer steht. Solange regelmäßig getrunken wird, bleibt SipSync ruhig. Vergeht zu viel Zeit ohne dass das Glas angehoben wird, eskaliert die Rückmeldung schrittweise – von einem dezenten Farbwechsel bis zu einer deutlich präsenteren Anzeige, begleitet von Vogelzwitschern über den Buzzer. Wird das Getränk angehoben und wieder abgestellt, reagiert SipSync unabhängig vom vorherigen Zustand mit einer kurzen, positiven Rückmeldung.
 
-Eine ausführlichere Beschreibung des Konzepts, der Hardwareauswahl und der Evaluationsergebnisse findet sich im [Projektbericht](./SipSync_Projektbericht.pdf).
 
 ## Hardware
 
