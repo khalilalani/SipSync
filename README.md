@@ -75,9 +75,6 @@ Alle Zeiten (Eskalationsdauern, Chirp-Rhythmus) sind zentral am Anfang von `SipS
 3. Verkabelung gemäß Schema im Projektbericht aufbauen.
 4. Sketch auf den Arduino Uno hochladen.
 
-## Einsatz von KI-Unterstützung
-
-Ein Teil des Codes (`birdChirp.h`, Teile von `ledMatrix.h` sowie `proximity.h`) wurde mithilfe eines KI-Assistenten (Claude, Anthropic) erstellt, auf Basis eigener Vorgaben zu Funktionsweise und Verhalten. Konzept, Hardwareauswahl, Systementwurf und alle Tests am realen Gerät stammen aus eigener Arbeit. Details dazu in Kapitel 2.5 des Projektberichts.
 
 ## Weiterführende Dokumentation
 
