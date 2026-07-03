@@ -46,12 +46,10 @@ Das Verdrahtungsschema ist im Projektbericht (Abbildung 1) dokumentiert.
 
 ## Dateistruktur
 
-```
-SipSyncFinal.ino   – Hauptdatei, Zustandslogik
-ledMatrix.h         – LED-Animationen (Pulse, Rainbow, Breathing)
-birdChirp.h          – Tonsequenzen für den Buzzer
-proximity.h          – Ultraschallsensor-Anbindung (I²C)
-```
+- [`SipSyncFinal.ino`](./SipSyncFinal.ino) – Hauptdatei, Zustandslogik
+- [`ledMatrix.h`](./ledMatrix.h) – LED-Animationen (Pulse, Rainbow, Breathing)
+- [`birdChirp.h`](./birdChirp.h) – Tonsequenzen für den Buzzer
+- [`proximity.h`](./proximity.h) – Ultraschallsensor-Anbindung (I²C)
 
 Der Code ist bewusst auf mehrere Dateien verteilt, damit Zustandslogik, Licht, Ton und Sensorabfrage getrennt bleiben und sich unabhängig voneinander anpassen lassen.
 
