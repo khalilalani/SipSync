@@ -30,7 +30,7 @@ Entstanden ist SipSync im Modul *Interaktive Systeme* im Sommersemester 2026 an 
   <img src="./sipsync-demo.gif" alt="SipSync Demo" width="480">
 </p>
 
-Die Grundidee: Ein Ultraschallsensor erkennt, ob ein Getränk auf dem Untersetzer steht. Solange regelmäßig getrunken wird, bleibt SipSync ruhig. Vergeht zu viel Zeit ohne dass das Glas angehoben wird, eskaliert die Rückmeldung schrittweise – von einem dezenten Farbwechsel bis zu einer deutlich präsenteren Anzeige, begleitet von Vogelzwitschern über den Buzzer. Wird das Getränk angehoben und wieder abgestellt, reagiert SipSync unabhängig vom vorherigen Zustand mit einer kurzen, positiven Rückmeldung.
+Ein Ultraschallsensor erkennt, ob ein Getränk auf dem Untersetzer steht. Solange regelmäßig getrunken wird, bleibt SipSync ruhig. Vergeht zu viel Zeit ohne dass das Glas angehoben wird, eskaliert die Rückmeldung schrittweise – von einem dezenten Farbwechsel bis zu einer deutlich präsenteren Anzeige, begleitet von Vogelzwitschern über den Buzzer. Wird das Getränk angehoben und wieder abgestellt, reagiert SipSync unabhängig vom vorherigen Zustand mit einer kurzen, positiven Rückmeldung.
 
 
 ## Hardware
@@ -50,7 +50,6 @@ Das Verdrahtungsschema ist im Projektbericht (Abbildung 1) dokumentiert.
 - [`birdChirp.h`](./birdChirp.h) – Tonsequenzen für den Buzzer
 - [`proximity.h`](./proximity.h) – Ultraschallsensor-Anbindung (I²C)
 
-Der Code ist bewusst auf mehrere Dateien verteilt, damit Zustandslogik, Licht, Ton und Sensorabfrage getrennt bleiben und sich unabhängig voneinander anpassen lassen.
 
 ## Zustandsautomat
 
@@ -66,7 +65,6 @@ SipSync durchläuft sieben Zustände:
 | RED | dringlichste Erinnerungsstufe |
 | HAPPY | Glas wurde angehoben und wieder abgestellt – positive Rückmeldung |
 
-Alle Zeiten (Eskalationsdauern, Chirp-Rhythmus) sind zentral am Anfang von `SipSyncFinal.ino` einstellbar.
 
 ## Verwendung
 
