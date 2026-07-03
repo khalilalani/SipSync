@@ -1,4 +1,4 @@
-# 🐦 SipSync – dein smarter Trink-Companion
+#SipSync – dein smarter Trink-Companion
 
 ![Platform](https://img.shields.io/badge/platform-Arduino%20Uno-00979D?logo=arduino&logoColor=white)
 ![Language](https://img.shields.io/badge/language-C%2FC%2B%2B-blue)
@@ -10,12 +10,12 @@ Entstanden ist SipSync im Modul *Interaktive Systeme* im Sommersemester 2026 an 
 
 ## Inhalt
 
+- [Team](#team)
 - [Konzept](#konzept)
 - [Hardware](#hardware)
 - [Dateistruktur](#dateistruktur)
 - [Zustandsautomat](#zustandsautomat)
 - [Verwendung](#verwendung)
-- [Team](#team)
 
 ## Team
 
@@ -83,10 +83,3 @@ Ein Teil des Codes (`birdChirp.h`, Teile von `ledMatrix.h` sowie `proximity.h`) 
 ## Weiterführende Dokumentation
 
 - 📄 [Projektbericht](./SipSync_Projektbericht.pdf) – vollständige Dokumentation inkl. Konzept, Systementwurf, Evaluation und Fazit
-- 🎬 [Produktvideo](./SipSync_Video.mp4) – kurze Demonstration des fertigen Prototyps
-
----
-
-<p align="center">
-  Gebaut mit 🩶, Lötzinn und zu wenig Wasser im Blutkreislauf.
-</p>
