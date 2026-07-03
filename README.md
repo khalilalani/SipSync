@@ -41,7 +41,6 @@ Ein Ultraschallsensor erkennt, ob ein Getränk auf dem Untersetzer steht. Solang
 - HC-SR04-Ultraschallsensor, per Lötbrücke auf I²C-Betrieb umgestellt (RCWL-9200-Chip)
 - Gehäuse aus PLA, im 3D-Druck gefertigt
 
-Das Verdrahtungsschema ist im Projektbericht (Abbildung 1) dokumentiert.
 
 ## Dateistruktur
 
