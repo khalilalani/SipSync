@@ -67,7 +67,7 @@ SipSync durchläuft sieben Zustände:
 
 ## Verwendung
 
-1. Alle vier Dateien in einen gemeinsamen Sketch-Ordner legen (Dateiname muss mit `SipSyncFinal.ino` übereinstimmen).
+1. Alle vier Dateien in einen gemeinsamen Sketch-Ordner legen.
 2. [Adafruit NeoPixel Library](https://github.com/adafruit/Adafruit_NeoPixel) über den Arduino Library Manager installieren.
 3. Verkabelung gemäß Schema im Projektbericht aufbauen.
 4. Sketch auf den Arduino Uno hochladen.
